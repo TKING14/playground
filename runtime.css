@@ -8,17 +8,17 @@
 
 @font-face {
 	font-family: 'saira bold';
-	src: url('./Fonts/SairaCondensed-Bold.ttf');
+	src: url('./SairaCondensed-Bold.ttf');
 }
 
 @font-face{
 	font-family: 'saira reg';
-	src: url('./Fonts/SairaCondensed-Regular.ttf');
+	src: url('./SairaCondensed-Regular.ttf');
 }
 
 body	{background-color:var(--white);color:var(--Blue);font-family: 'saira bold';text-transform: uppercase;animation: paused zoom-out 2s forwards;}
-body:hover{cursor:url("./Sprites/cursor2.png") 16 16, auto;}
-body:active{cursor:url("./Sprites/cursor2.png") 16 16, auto;scale: var(--viewportScale);}
+body:hover{cursor:url("./cursor2.png") 16 16, auto;}
+body:active{cursor:url("./cursor2.png") 16 16, auto;scale: var(--viewportScale);}
 
 
 p		{font-family: sans-serif;text-transform: none;}
