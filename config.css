@@ -1,0 +1,25 @@
+body	{margin:0;}
+nav		{height:10vh;position: relative;}
+nav a	{padding:2rem;text-decoration:none;}
+section	{padding:5rem;}
+li		{list-style-type:none;}
+
+p		{max-width: 40rem;}
+h2		{margin-top:3em;}
+
+
+.flex	{display:flex;}
+.axm	{justify-content:center;}
+.axs	{align-items:center;}
+.col	{flex-direction:column;}
+.row	{flex-direction:row;}
+
+.spaceBetween{justify-content:space-between;}
+.spaceAround{justify-content:space-around;}
+
+.vh05	{height:5vh;}
+.vh30	{height:30vh;}
+
+.w33	{width:33vw;}
+.w50	{width:50vw;}
+.w10	{min-width:1500px;}

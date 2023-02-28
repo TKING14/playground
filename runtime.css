@@ -1,0 +1,51 @@
+:root{
+	--white: rgb(255, 255, 255);
+	--blue: rgb(8, 31, 48);
+	--orange: rgb(255, 69, 0);
+
+	--viewportScale:0.5;
+}
+
+@font-face {
+	font-family: 'saira bold';
+	src: url('./Fonts/SairaCondensed-Bold.ttf');
+}
+
+@font-face{
+	font-family: 'saira reg';
+	src: url('./Fonts/SairaCondensed-Regular.ttf');
+}
+
+body	{background-color:var(--white);color:var(--Blue);font-family: 'saira bold';text-transform: uppercase;animation: paused zoom-out 2s forwards;}
+body:hover{cursor:url("./Sprites/cursor2.png") 16 16, auto;}
+body:active{cursor:url("./Sprites/cursor2.png") 16 16, auto;scale: var(--viewportScale);}
+
+
+p		{font-family: sans-serif;text-transform: none;}
+a		{font-weight: bold;color: inherit;}
+a:hover	{opacity: 0.5;cursor:inherit;font-size: 1.1em;}
+
+img:hover{scale:1.1;}
+img{background-color: rgb(200, 200, 200);}
+img:active{scale:2;}
+
+
+.scaleText{font-size: 1.625em;}
+.scaleText2{font-size: 2.875em;}
+
+.bc0	{background-color:var(--blue);color: var(--white);}
+.bc1	{background-color: var(--orange);color:var(--white);}
+.bc2	{background-color:white;}
+
+
+@keyframes zoom-out {
+	0% {scale:1;}
+	100% {scale:0.5;}
+	
+}
+
+@keyframes zoom-in {
+	0% {scale:0.5;}
+	100% {scale:1;}
+	
+}
